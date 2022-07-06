@@ -3,7 +3,7 @@
 #include <algorithm>
 
 using namespace std;
-void sortMass(string*, int*);
+void sortmass(string*, int*);
 
 void sortmass(string* str, int *size)
 {
