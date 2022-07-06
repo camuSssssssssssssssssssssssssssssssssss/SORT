@@ -26,7 +26,7 @@ void sortmass(string* str, int *size)
 int main()
 {
 	setlocale(LC_ALL, "");
-	cout << "Ñêîëüêî èì¸í áóäåò â ñïèñêå: ";
+	cout << "Ã‘ÃªÃ®Ã«Ã¼ÃªÃ® Ã¨Ã¬Â¸Ã­ Ã¡Ã³Ã¤Ã¥Ã² Ã¢ Ã±Ã¯Ã¨Ã±ÃªÃ¥: ";
 	int lenght;
 	cin >> lenght;
 
@@ -34,7 +34,7 @@ int main()
 
 	for (int size = 0; size < lenght; ++size)
 	{
-		cout << "Ââåäèòå èìÿ #" << size + 1 << ": ";
+		cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã¨Ã¬Ã¿ #" << size + 1 << ": ";
 		cin >> array[size];
 	}
 
